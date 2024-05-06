@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import Fetching from './components/Fetching'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <h1>Hello World</h1> 
+    <div>
+      <Fetching/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
